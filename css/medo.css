@@ -5,15 +5,15 @@
 }
 
 body {
-    font-family: 'Big Shoulders Display', cursive;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: "Big Shoulders Display", cursive;
+    font-family: "Lexend Deca", sans-serif;
     margin: 0;
 }
 
 
 /* Small devices (landscape phones, 576px and up) */
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
     .container {
         width: 375px;
     }
@@ -103,7 +103,7 @@ body {
 .container h2 {
     font-size: 40px;
     text-transform: uppercase;
-    font-family: 'Big Shoulders Display';
+    font-family: "Big Shoulders Display";
     color: white;
     letter-spacing: 2px;
 }
